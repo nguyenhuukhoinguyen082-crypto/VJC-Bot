@@ -1,0 +1,11 @@
+.env
+.venv
+*.pyc
+test.py
+
+# Local user database (contains hashed passwords and PII)
+backend/database/users.json
+bot/database/users.json
+
+# gTTS cache (generated at runtime)
+backend/bot/data/tts_cache/

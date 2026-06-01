@@ -1,0 +1,69 @@
+{
+  "airline": {
+    "name": "PTFS Airline Panel",
+    "shortName": "PTFS",
+    "description": "Experience premium virtual aviation with PTFS Airline Panel. Book flights, track routes, and explore our fleet.",
+    "keywords": ["virtual airline", "flight booking", "aviation", "PTFS"],
+    "heroTitle": "Fly the Future",
+    "heroSubtitle": "Premium virtual aviation at your fingertips. Book flights, earn miles, and experience world-class service."
+  },
+  "colors": {
+    "primary": "#10b981",
+    "secondary": "#14b8a6",
+    "accent": "#06b6d4",
+    "success": "#A8D8A8",
+    "warning": "#FFE0A0",
+    "error": "#F4A9A8",
+    "info": "#A8D8F4",
+    "bot": {
+      "green": 11065512,
+      "mint": 13168840,
+      "red": 16034216,
+      "yellow": 16769184,
+      "blue": 11065588,
+      "orange": 16753504
+    }
+  },
+  "links": {
+    "discord": "https://discord.gg/pFgPqSKwFp",
+    "website": "https://bamboo-airways.vercel.app"
+  },
+  "logos": {
+    "main": "/logo/BambooAirwayLong.png",
+    "icon": "/logo/BamboAirwayIcon.png",
+    "bot": "https://cdn.discordapp.com/attachments/1506835941522804838/1506835978571092078/8a78885bfb9c400268df896b41dbe80c.jpg"
+  },
+  "bot": {
+    "footerText": "PTFS Airline Bot",
+    "staffRoles": [
+      1503009616378724472,
+      1503009679662649485,
+      1503021381842108547,
+      1507391390059855882
+    ],
+    "alertUserId": 1446868246455259289,
+    "defaultVoiceChannelId": 1503003631027486812
+  },
+  "fleet": [
+    {
+      "registration": "PT-FSA",
+      "model": "Airbus A320-200",
+      "type": "Narrow-Body",
+      "capacity": "180 pax",
+      "firstFlight": 2020,
+      "status": "Active"
+    }
+  ],
+  "team": [
+    {
+      "username": "StaffMember",
+      "title": "Staff",
+      "department": "Operations",
+      "experience": "1 year"
+    }
+  ],
+  "airports": {
+    "HAN": "Noi Bai International Airport",
+    "SGN": "Tan Son Nhat International Airport"
+  }
+}
