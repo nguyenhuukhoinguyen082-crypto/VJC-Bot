@@ -97,15 +97,12 @@ def get_db():
     finally:
         db.close()
 
-def get_sync_db():
-    def load_json(model, db_session):
-    """Load a model instance and return it as a dictionary"""
+def load_json(model, db_session):
     if not model:
         return None
     return model_to_dict(model)
 
 def save_json(model, data, db_session):
-    """Update a model instance with data from a dictionary"""
     for key, value in data.items():
         if hasattr(model, key):
             setattr(model, key, value)
