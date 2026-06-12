@@ -98,5 +98,18 @@ def get_db():
         db.close()
 
 def get_sync_db():
+    def load_json(model, db_session):
+    """Load a model instance and return it as a dictionary"""
+    if not model:
+        return None
+    return model_to_dict(model)
+
+def save_json(model, data, db_session):
+    """Update a model instance with data from a dictionary"""
+    for key, value in data.items():
+        if hasattr(model, key):
+            setattr(model, key, value)
+    db_session.commit()
+    return model_to_dict(model)
     """Get a synchronous database session (for non-FastAPI use cases)"""
     return SessionLocal()
